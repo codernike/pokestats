@@ -1,9 +1,7 @@
 
 
-
 import React,{ useEffect, useState } from "react";
 import PokemonThumbnail from "./Components/PokemonThumbnail";
-
 
 function App() {
   const [allPokemons,setAllPokemons] = useState([]);
@@ -32,7 +30,7 @@ function App() {
      <h1>Pokemon Kingdom .</h1>
     
      <div className="pokemon-container">
-       <div className="all-container">
+       n<div className="all-container" >
           {allPokemons.map((pokemon,index)=> 
                  <PokemonThumbnail
                   id = {pokemon.id}
